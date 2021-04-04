@@ -222,7 +222,7 @@ const UIController = (function () {
         },
         showTotal: function (total) {
             document.querySelector(Selectors.totalDolar).textContent = total;
-            document.querySelector(Selectors.totalTL).textContent = total * 4.5;
+            document.querySelector(Selectors.totalTL).textContent = total * 7.5;
         },
         addProductToForm: function () {
             const selectedProduct = ProductController.getCurrentProduct();
